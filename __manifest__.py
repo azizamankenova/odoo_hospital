@@ -1,0 +1,42 @@
+{
+    'name': 'Hospital Management',
+    'version': '1.1',
+    'category': 'Extra Tools',
+    'summary': 'Module for managing the Hospitals',
+    'sequence': 10,
+    'license': 'AGPL-3',
+    'author': 'Aziza Mankenova',
+    'depends': [
+        'base',
+        'mail',
+        'sale',
+        'report_xlsx',
+        'website'
+    ],
+    'demo': [
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'security/security.xml',
+        'data/sequence.xml',
+        'data/data.xml',
+        'data/cron.xml',
+        'reports/report.xml',
+        'data/mail_template.xml',
+        'wizards/create_appointment.xml',
+        'views/patient.xml',
+        'views/appointment.xml',
+        'views/doctor.xml',
+        'views/lab.xml',
+        'views/template.xml',
+        'views/settings.xml',
+        'views/sale_order.xml',
+        'views/dashboard.xml',
+        'reports/patient_card.xml',
+        'reports/appointment.xml',
+        'reports/sale_report_inherit.xml'
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
